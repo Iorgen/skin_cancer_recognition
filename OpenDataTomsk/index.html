@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Фавикон -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <link href="style/style.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <title>Приложуха</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+    <div class="App">
+        <div class="App__menu">
+            <!-- Route Picker -->
+            <section class="App__menu-controls">
+                <!--  -->
+                <div>
+                    <label>
+                        Начальный адрес
+                        <input type="text" id="start_adress">
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Конечный адрес
+                        <input type="text" id="end_adress">
+                    </label>
+                </div>
+                <div>
+                    <button id="Check" class="Check button_tmp" onclick="
+                        ">
+                        Проверить путь.
+                    </button>
+                </div>
+                <button id="Printallonpage" class="Check button_tmp">
+                    Показать на карте все участки с ремонтом
+                </button>
+            </section>
+        </div>
+        <div class="map__block" id="map" #map></div>
+    </div>
+    <script src="library.js"></script>
+    <script src="maps.js"></script>
+    <script src="colorizer.js"></script>
+<script> 
+    document.getElementById("Check").addEventListener("click", function () {
+        var SA = document.getElementById('start_adress').text;
+        var DA = document.getElementById('end_adress').text;
+        model.setStartAdress('Томск');
+        model.setDestinationAdress('Москва');
+        CheckRepairPointsOnRoute(App.getRoute(), model.getRepairPoint(), App.getYandexMap());
+        ymaps.ready(App.init); 
+    });
+
+</script>
+
+</body>
+
+</html>
