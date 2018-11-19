@@ -1,0 +1,27 @@
+/* body{
+    height: auto;
+} */
+.skin{
+    height: 100vh;
+    padding: 5px;
+    border: 2px solid red; 
+}
+.imagesend{
+    /* width: 70%;
+    height: 700px;
+    margin: auto ;
+    margin-top: 100px;
+    border: 2px solid red; */
+    /* background-image: url("resources/img/dotbg.jpg"); */
+    /* background-color: rgba(202, 109, 171, 0.4); */
+}
+/* .imagesend__form{
+    height: 100%;
+    margin-top: 5%;
+} */
+.debug{
+    border: 2px solid black;
+}
+.drag__input{
+    height: 400px
+}
