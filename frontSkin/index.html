@@ -11,43 +11,56 @@
     crossorigin="anonymous"></script> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-  
+
 </head>
 
 <body>
     <section class="skin">
         <div class="container">
             <div class="row">
-                <div class="imagesend__form col-md-8 debug">
-                    <div class="drag__input" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="drop col-md-12 debug">
+                    <div id="drop__area">
+                        <h3 id="Med__header"> Система поддержки принятия решения при постановке Анамнеза </h3>
+                        <div id="gallery"></div>
+                        <form class="my-form">
+                            <ul id="Med__hints">
+                                <li>
+                                    Переместите изображение в ограниченную область либо выберите используя кнопку
+                                </li>
+                                <li>
+                                    Дождитесь окончания загрузки
+                                </li>
+                                <li>
+                                    Примите решение
+                                </li>
+                            </ul>
+                            <input type="file" id="fileElem" multiple accept="image/*" onchange="handleFiles(this.files)">
+                            <label class="button" for="fileElem">Выбрать изображение</label>
+                        </form>
+
+                        <!-- <progress id="progress-bar" max=100 value=0></progress> -->
                     </div>
-                    <form >
-                        <div class="imagesend">
-                            <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
-                            Отправить этот файл:
-                            <input id = "files" type="file" name="image" />
 
-                            <input id = "send" onclick = 'sendImg();' type = "button" value="Send File to" />
-                        </div>
-                    </form>
-                    <!-- <form action="image.php" method="POST" enctype="multipart/form-data">
-                        <input type="file" name="image" />
-                        <input type="submit"/>
-                     </form> -->
                 </div>
-                <div class="col-md-4 debug" >
-                        <p> Choose params </p>
-
+                <div class="result col-md-12 debug">
+                    <div id="result__area" style = "display: block;" >
+                        <p id = "name"> 
+                            Имя: 'INSERT FROM JSON'
+                        </p >
+                        <p id = "surname"> 
+                            Фамилия 'INSERT FROM JSON'
+                        </p >
+                        <p id = "diag">
+                            Предполагаемый диагноз 'INSERT FROM JSON'
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-
     </section>
     <!-- enctype="multipart/form-data" action="__URL__" method="POST" -->
 </body>
 <script src="main.js"></script>
-<script>
-    
-</script>
+
 
 </html>
