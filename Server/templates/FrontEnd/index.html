@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div id='App'>
+        <div class="loader" id = "loader" style = "display: none;">
+            <div class="loader__spinner"></div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
+                aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample09">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown09" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown09">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-md-0">
+                    <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+        </nav>
+        <section>
+        </section>
+        <section class="skin">
+            <div class="container">
+                <div class="row">
+                    <div class="drop col-md-12 debug">
+                        <div id="drop__area">
+                            <h3 id="Med__header"> Система поддержки принятия решения при постановке Анамнеза </h3>
+                            <div id="gallery"></div>
+                            <form class="my-form">
+                                <ul id="Med__hints">
+                                    <li>
+                                        Переместите изображение в ограниченную область либо выберите используя кнопку
+                                    </li>
+                                    <li>
+                                        Дождитесь окончания загрузки
+                                    </li>
+                                    <li>
+                                        Примите решение
+                                    </li>
+                                </ul>
+                                <input type="file" id="fileElem" multiple accept="image/*" onchange="handleFiles(this.files)">
+                                <label class="button" for="fileElem">Выбрать изображение</label>
+                            </form>
+
+                            <!-- <progress id="progress-bar" max=100 value=0></progress> -->
+                        </div>
+
+                    </div>
+                    <div class="result col-md-12 debug">
+                        <div id="result__area" style="display: block;">
+                            <p id="name">
+                                Имя: 'INSERT FROM JSON'
+                            </p>
+                            <p id="surname">
+                                Фамилия 'INSERT FROM JSON'
+                            </p>
+                            <p id="diag">
+                                Предполагаемый диагноз 'INSERT FROM JSON'
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <!-- enctype="multipart/form-data" action="__URL__" method="POST" -->
+</body>
+
+
+<script src="/static/main.js"></script>
+
+
+</html>
