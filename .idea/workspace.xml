@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0b531ec-4a2e-4a6f-8d58-4be705506db2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/augmentation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/OpenCV ImagePreproccesing-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/OpenCV ImagePreproccesing-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/imgStore/imaj.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Server/templates/FrontEnd/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/static/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/resources/img/dotbg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Server/static/resources/img/dotbg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Server/static/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/Server/templates/FrontEnd/upload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes_about_features.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Notes_about_features.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenCV ImagePreproccesing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV ImagePreproccesing.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report_files/Реферат.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Report_files/Реферат.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Skin cancer recognition Opencv.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Skin cancer recognition Opencv.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/augmentation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/model.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Server/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/templates/FrontEnd/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Server/templates/FrontEnd/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/templates/FrontEnd/upload.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,25 +23,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="20" />
+          <entry key="css" value="4" />
+          <entry key="html" value="58" />
           <entry key="py" value="593" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="20" />
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="58" />
           <entry key="Python" value="593" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
+          <entry key="css" value="1" />
+          <entry key="html" value="2" />
           <entry key="js" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="2" />
           <entry key="JavaScript" value="1" />
         </counts>
       </usages-collector>
@@ -63,11 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Server/augmentation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="66" column="48" lean-forward="true" selection-start-line="66" selection-start-column="48" selection-end-line="66" selection-end-column="48" />
+            <state relative-caret-position="183">
+              <caret line="62" column="35" lean-forward="true" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -78,11 +71,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Server/FlaskApp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#93#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" column="42" lean-forward="true" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Server/templates/FrontEnd/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Server/static/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -99,6 +107,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>image</find>
+      <find>title</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,9 +118,10 @@
       <list>
         <option value="$PROJECT_DIR$/augmentation.py" />
         <option value="$PROJECT_DIR$/FlaskApp.py" />
-        <option value="$PROJECT_DIR$/Server/templates/FrontEnd/index.html" />
         <option value="$PROJECT_DIR$/Server/augmentation.py" />
         <option value="$PROJECT_DIR$/Server/FlaskApp.py" />
+        <option value="$PROJECT_DIR$/Server/templates/FrontEnd/index.html" />
+        <option value="$PROJECT_DIR$/Server/static/style.css" />
       </list>
     </option>
   </component>
@@ -138,6 +148,32 @@
               <item name="skin_cancer_recognition" type="b2602c69:ProjectViewProjectNode" />
               <item name="skin_cancer_recognition" type="462c0819:PsiDirectoryNode" />
               <item name="Server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skin_cancer_recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skin_cancer_recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skin_cancer_recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skin_cancer_recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skin_cancer_recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skin_cancer_recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skin_cancer_recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skin_cancer_recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -223,11 +259,11 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" sideWeight="0.501355" side_tool="true" weight="0.1564805" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5745258" visible="true" weight="0.1564805" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5745258" visible="true" weight="0.1564805" />
       <window_info id="Structure" order="1" sideWeight="0.42547426" side_tool="true" visible="true" weight="0.1564805" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" weight="0.32952183" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.23284823" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.23284823" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -245,13 +281,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Server/templates/FrontEnd/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Server/static/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -261,21 +290,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Server/FlaskApp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#93#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="42" lean-forward="true" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Server/augmentation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="66" column="48" lean-forward="true" selection-start-line="66" selection-start-column="48" selection-end-line="66" selection-end-column="48" />
+        <state relative-caret-position="183">
+          <caret line="62" column="35" lean-forward="true" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/templates/FrontEnd/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
         </state>
       </provider>
     </entry>
