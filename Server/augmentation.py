@@ -71,14 +71,3 @@ def load_data():
     skin_data['dx'].value_counts()
     return skin_data
 
-if __name__ == '__main__':
-    IMAGE_DIMS = (100, 75, 3)
-    skin_data = load_data()
-    watching_skin_path = skin_data['path'][25]
-    thr = thresholding_feature('dataset\\images_part_1\\ISIC_0024684.jpg')
-    # Image = cv2.imread('dataset\\images_part_1\\ISIC_0024684.jpg', cv2.IMREAD_UNCHANGED)
-    # thr = increase_brightness(Image,value=150)
-    print(len(thr.shape))
-    cv2.imshow('image', thr)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
