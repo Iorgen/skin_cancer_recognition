@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0b531ec-4a2e-4a6f-8d58-4be705506db2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Skin cancer recognition Opencv-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Skin cancer recognition Opencv-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/FlaskApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/FlaskApp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/augmentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/augmentation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/model.h5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Skin cancer recognition Opencv.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Skin cancer recognition Opencv.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="d0b531ec-4a2e-4a6f-8d58-4be705506db2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +12,7 @@
     <session id="1165913513">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
@@ -156,11 +149,6 @@
               <item name="skin_cancer_recognition" type="b2602c69:ProjectViewProjectNode" />
               <item name="skin_cancer_recognition" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="skin_cancer_recognition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skin_cancer_recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -245,10 +233,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.76707315" visible="true" weight="0.14805058" />
-      <window_info id="Structure" order="1" sideWeight="0.23292683" side_tool="true" visible="true" weight="0.14805058" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.76559544" visible="true" weight="0.14805058" />
+      <window_info id="Structure" order="1" sideWeight="0.23440453" side_tool="true" visible="true" weight="0.14805058" />
       <window_info id="Favorites" order="2" sideWeight="0.501355" side_tool="true" weight="0.1564805" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -258,7 +245,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952183" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.14760914" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.45010394" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32952183" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
