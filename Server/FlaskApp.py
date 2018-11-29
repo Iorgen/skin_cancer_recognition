@@ -1,5 +1,6 @@
 from flask import Flask, request, render_template, redirect, url_for, json, Response, jsonify
 from werkzeug.utils import secure_filename
+from keras import backend as K
 import numpy as np
 import os
 # import augmentation
@@ -25,31 +26,24 @@ def create_model():
     model.add(layers.Conv2D(64, (3, 3), input_shape=(100, 75, 3)))
     model.add(layers.Activation('relu'))
     model.add(layers.MaxPooling2D(pool_size=(2, 2)))
-
     model.add(layers.Conv2D(64, (3, 3)))
     model.add(layers.Activation('relu'))
     model.add(layers.MaxPooling2D(pool_size=(2, 2)))
-
     model.add(layers.Conv2D(128, (3, 3)))
     model.add(layers.Activation('relu'))
     model.add(layers.MaxPooling2D(pool_size=(2, 2)))
-
     model.add(layers.Conv2D(128, (3, 3)))
     model.add(layers.Activation('relu'))
     model.add(layers.MaxPooling2D(pool_size=(2, 2)))
-
     model.add(layers.Flatten())
     model.add(layers.Dense(128))
     model.add(layers.Activation('relu'))
     model.add(layers.Dropout(0.1))
-
     model.add(layers.Dense(256))
     model.add(layers.Activation('relu'))
     model.add(layers.Dropout(0.1))
-
     model.add(layers.Dense(4))
     model.add(layers.Activation('sigmoid'))
-
     model.compile(loss='binary_crossentropy',
                   optimizer=optimizer,
                   metrics=['accuracy'])
@@ -92,7 +86,7 @@ def check_image():
 
         # make a prediction based on loaded photo
         hist = model.predict(pred_image)
-
+        K.clear_session()
         data = {
             'name': "John",
             'surname': "Vagner",

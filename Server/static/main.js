@@ -3,7 +3,7 @@
 var JSONINPUT = '{ "name":"John", "surname":"   ", "diag":"Melanoma"}';
 
 
-
+let dictionary = ['bcc', 'bkl', 'mel', 'nv']
 let dropArea = document.getElementById('drop__area');
 
 // dropArea.addEventListener('dragenter', handlerFunction, false)
@@ -81,11 +81,18 @@ function uploadFile(file) {
     xhr.addEventListener('readystatechange', function (e) {
         if (xhr.readyState == 4 && xhr.status == 200) {
             console.log(xhr.response);
+
             var response = JSON.parse(xhr.response);
+            var predict_result = response["shape"];
+            for (var i =0; i< predict_result[0].length; i++){
+                if ( predict_result[0][i] == 1){
+                    console.log(predict_result,dictionary[i]);
+                }
+            }
             // debug mode 
             // var result = document.getElementById('result__area');
             // result.innerHTML = xhr.response;
-            showResult(response);
+
             document.getElementById('loader').style.display = 'none'; 
         }
         else if (xhr.readyState == 4 && xhr.status != 200) {
